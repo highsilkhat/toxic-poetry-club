@@ -19,7 +19,7 @@ export default function App() {
 
                 <h2>Next Meeting:</h2>
 
-                <h2>Sunday, October 5, 2025 @ 7 p.m.</h2>
+                <h2>Sunday, November 2, 2025 (the Day of the Dead) @ 7 p.m.</h2>
             </section>
         </main>
     )
