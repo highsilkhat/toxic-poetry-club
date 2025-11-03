@@ -15,8 +15,15 @@ export default function App() {
 
                 <p>Poetry Meetup @ Teku Tavern</p>
 
-                <p>552 Denny Wy, Seattle (Belltown-ish)</p>
-
+                <p>
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=552+Denny+Way+Seattle+WA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        552 Denny Wy, Seattle (Belltown-ish)
+                    </a>
+                </p>
                 <h2>Next Meeting:</h2>
 
                 <h2>Sunday, November 2, 2025 (the Day of the Dead) @ 7 p.m.</h2>
