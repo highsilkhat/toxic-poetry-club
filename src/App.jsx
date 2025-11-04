@@ -1,10 +1,13 @@
 import React from 'react'
+import BurgerMenu from './BurgerMenu'
 import './index.css'
+import './App.css'
 
 export default function App() {
     return (
         <main className="home">
             <div className="home__overlay" />
+            <BurgerMenu />
             <section className="home__content" role="region" aria-label="Hero">
                 <h1>Toxic Poetry Club</h1>
                 <p>Are you the Emily Dickinson of the Notes App?</p>
