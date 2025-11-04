@@ -119,6 +119,15 @@ button:focus-visible {
     background: #1565c0;
 }
 
+.home__content a {
+    color: #ffd700; /* gold/yellow color */
+    text-decoration: underline;
+}
+
+.home__content a:hover {
+    color: #ffed4e; /* lighter gold on hover */
+}
+
 /* Ensure the hero fills the viewport */
 .home {
     min-height: 100vh;
