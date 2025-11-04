@@ -15,7 +15,7 @@ export default function App() {
 
                 <p>
                     <a
-                        href="https://www.google.com/maps/search/?api=1&query=552+Denny+Way+Seattle+WA"
+                        href="https://www.google.com/maps/search/?api=1&query=Teku+Tavern+Seattle+WA"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
