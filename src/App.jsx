@@ -13,15 +13,13 @@ export default function App() {
 
                 <p>Do you want to hang out with people who do and possibly do so while drinking a beverage?</p>
 
-                <p>Poetry Meetup @ Teku Tavern</p>
-
                 <p>
                     <a
                         href="https://www.google.com/maps/search/?api=1&query=552+Denny+Way+Seattle+WA"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        552 Denny Wy, Seattle (Belltown-ish)
+                        Teku Tavern: 552 Denny Wy, Seattle (Belltown-ish)
                     </a>
                 </p>
                 <h2>Next Meeting:</h2>
