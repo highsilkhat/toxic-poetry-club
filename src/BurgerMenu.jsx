@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './BurgerMenu.css'
 
 export default function BurgerMenu() {
@@ -6,6 +7,10 @@ export default function BurgerMenu() {
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
+    }
+
+    const handleMenuClick = () => {
+        setIsMenuOpen(false)
     }
 
     return (
@@ -25,10 +30,10 @@ export default function BurgerMenu() {
             {/* Navigation Menu */}
             <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-                    <li><a href="#about" onClick={toggleMenu}>About</a></li>
-                    <li><a href="#events" onClick={toggleMenu}>Events</a></li>
-                    <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+                    <li><Link to="/" onClick={handleMenuClick}>Home</Link></li>
+                    <li><Link to="/about" onClick={handleMenuClick}>About</Link></li>
+                    <li><Link to="/events" onClick={handleMenuClick}>Events</Link></li>
+                    <li><Link to="/contact" onClick={handleMenuClick}>Contact</Link></li>
                 </ul>
             </nav>
         </>
