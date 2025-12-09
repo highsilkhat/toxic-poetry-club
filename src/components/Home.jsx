@@ -1,0 +1,26 @@
+import React from 'react'
+
+export default function Home() {
+    return (
+        <section className="home__content" role="region" aria-label="Hero">
+            <h1>Toxic Poetry Club</h1>
+
+            <h2>Next Meeting:</h2>
+
+            <h2>Sunday, January 4, 2025 @ 7 p.m.</h2>
+
+            <h3>January's writing prompt: Redemption</h3>
+
+            <p>
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Teku+Tavern+Seattle+WA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Teku Tavern: 552 Denny Wy, Seattle (Belltown-ish)
+                </a>
+            </p>
+
+        </section>
+    )
+}
