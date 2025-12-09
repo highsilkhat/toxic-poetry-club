@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import './BurgerMenu.css'
+import '../BurgerMenu.css'
 
 export default function BurgerMenu() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)

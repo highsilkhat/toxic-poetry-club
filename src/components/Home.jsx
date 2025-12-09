@@ -4,11 +4,12 @@ export default function Home() {
     return (
         <section className="home__content" role="region" aria-label="Hero">
             <h1>Toxic Poetry Club</h1>
-            <p>Are you the Emily Dickinson of the Notes App?</p>
 
-            <p>Do you read or write poetry?</p>
+            <h2>Next Meeting:</h2>
 
-            <p>Do you want to hang out with people who do and possibly do so while drinking a beverage?</p>
+            <h2>Sunday, January 4, 2025 @ 7 p.m.</h2>
+
+            <h3>January's writing prompt: Redemption</h3>
 
             <p>
                 <a
@@ -19,11 +20,7 @@ export default function Home() {
                     Teku Tavern: 552 Denny Wy, Seattle (Belltown-ish)
                 </a>
             </p>
-            <h2>Next Meeting:</h2>
 
-            <h2>Sunday, December 7, 2025 @ 7 p.m.</h2>
-
-            <h3>December's writing prompt: Infamy</h3>
         </section>
     )
 }
