@@ -5,11 +5,11 @@ export default function About() {
         <section className="home__content" role="region" aria-label="About">
             <h1>About Us</h1>
 
-            <p>Are you the Emily Dickinson of the Notes App?</p>
+            <p>We aspire to be constructively toxic— dissolving those barriers of institution, </p>
+            <p>of limits, the things that would hold us back from speaking the truths of the universe— </p>
+            <p>all while rejecting hate speech, racism, misogyny, transphobia and those tools used</p>
+            <p>by oppressors everywhere out of fear of their own smallness.</p>
 
-            <p>Do you read or write poetry?</p>
-
-            <p>Do you want to hang out with people who do and possibly do so while drinking a beverage?</p>
         </section>
     )
 }

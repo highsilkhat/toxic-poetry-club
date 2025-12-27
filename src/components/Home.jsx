@@ -5,9 +5,11 @@ export default function Home() {
         <section className="home__content" role="region" aria-label="Hero">
             <h1>Toxic Poetry Club</h1>
 
+            <h3><i>Seattle's premier poetry club for the unpublished</i></h3>
+
             <h2>Next Meeting:</h2>
 
-            <h2>Sunday, January 4, 2025 @ 7 p.m.</h2>
+            <h3>Sunday, January 4, 2025 @ 7 p.m.</h3>
 
             <h3>January's writing prompt: Redemption</h3>
 
