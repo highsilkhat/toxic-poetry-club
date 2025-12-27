@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <section className="home__content" role="region" aria-label="Contact">
             <h1>Contact</h1>
-            <p>Currently being coy</p>
+            <h4>Just show up to the next meeting!</h4>
         </section>
     )
 }
