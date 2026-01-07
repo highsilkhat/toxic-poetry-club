@@ -9,9 +9,9 @@ export default function Home() {
 
             <h2>Next Meeting:</h2>
 
-            <h3>Sunday, January 4, 2025 @ 7 p.m.</h3>
+            <h3>Sunday, February 1, 2025 @ 7 p.m.</h3>
 
-            <h3>January's writing prompt: Redemption</h3>
+            <h3>January's writing prompt: Cringe</h3>
 
             <p>
                 <a
