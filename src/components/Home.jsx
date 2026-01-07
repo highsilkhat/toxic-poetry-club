@@ -11,7 +11,7 @@ export default function Home() {
 
             <h3>Sunday, February 1, 2025 @ 7 p.m.</h3>
 
-            <h3>January's writing prompt: Cringe</h3>
+            <h3>February's writing prompt: Cringe</h3>
 
             <p>
                 <a
