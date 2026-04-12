@@ -11,7 +11,7 @@ export default function Home() {
 
             <h3>Sunday, May 3, 2025 @ 7 p.m.</h3>
 
-            <h3>April's writing prompt: Filter</h3>
+            <h3>May's writing prompt: Filter</h3>
 
             <p>
                 <a
