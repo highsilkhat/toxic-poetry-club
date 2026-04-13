@@ -90,6 +90,7 @@ button:focus-visible {
     text-align: center;
     padding: 2rem;
     backdrop-filter: saturate(1.2);
+    max-width: 66.66vw; /* default to 2/3 of viewport width */
 }
 
 .home__content h1 {
