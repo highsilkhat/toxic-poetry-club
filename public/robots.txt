@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://toxicpoetryclub.com/sitemap.xml
