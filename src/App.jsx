@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from '@vercel/analytics/react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import BurgerMenu from './components/BurgerMenu.jsx'
 import Home from './components/Home.jsx'
@@ -20,7 +21,9 @@ export default function App() {
                     <Route path="/events" element={<Events />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
+                <Analytics />
             </main>
         </Router>
+
     )
 }
