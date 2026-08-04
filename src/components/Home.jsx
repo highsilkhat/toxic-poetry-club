@@ -11,9 +11,9 @@ export default function Home() {
 
             <h2>Next Meeting:</h2>
 
-            <p className="home__meeting-time">Sunday, August 2, 2026 @ 7 p.m.</p>
+            <p className="home__meeting-time">Sunday, September 6, 2026 @ 7 p.m.</p>
 
-            <p className="home__writing-prompt">August's writing prompt: <strong>Ekphrastic Poem (Response to Another Piece of Art)</strong></p>
+            <p className="home__writing-prompt">September's writing prompt: <strong>Labor</strong></p>
 
             <address>
                 <a
